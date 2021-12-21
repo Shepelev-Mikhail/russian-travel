@@ -1,7 +1,12 @@
 .place {
+  margin-bottom: 80px;
   display: grid; 
   grid-auto-flow: column;
   grid-template-columns: 460px 1fr; 
   grid-template-rows: repeat(2, max-content); 
   gap: 48px 40px; 
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
 }
