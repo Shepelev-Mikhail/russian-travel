@@ -1,7 +1,7 @@
 .cover__overlay {
   position: relative;
-  max-width: 100%;
-  min-height: 740px;
+  min-width: 1024px;
+  min-height: 640px;
   background-image: url(../../../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +11,8 @@
   justify-content: center;
   align-content: center;
   align-items: center;
+  text-decoration: none;
+  color: #fff;
 }
 
 .cover__overlay::before {
@@ -22,4 +24,16 @@
   position: absolute;
   top: 0;
   left: 0;
+  transition: opacity .3s linear;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    min-width: 1184px;
+    min-height: 740px;
+  }
 }
