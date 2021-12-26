@@ -1,7 +1,9 @@
 .cover__overlay {
   position: relative;
-  min-width: 1024px;
-  min-height: 640px;
+  min-width: 768px;
+  min-height: 480px;
+  margin-left: -24px;
+  margin-right: -24px;
   background-image: url(../../../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,9 +33,20 @@
   opacity: 0.8;
 }
 
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    min-width: 1024px;
+    min-height: 640px;
+    margin-left: -48px;
+    margin-right: -48px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .cover__overlay {
     min-width: 1184px;
     min-height: 740px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

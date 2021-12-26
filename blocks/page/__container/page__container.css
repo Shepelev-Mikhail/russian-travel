@@ -1,9 +1,18 @@
 .page__container {
-    max-width: 1024px;
-    margin: 92px auto 0;
+    max-width: 768px;
+    margin: 88px auto 0;
     box-sizing: border-box;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .page__container {
+        max-width: 1024px;
+        margin-top: 92px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
