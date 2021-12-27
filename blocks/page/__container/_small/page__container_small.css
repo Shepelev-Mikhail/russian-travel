@@ -1,9 +1,0 @@
-.page__container_small {
-    
-}
-
-@media screen and (min-width: 1280px) {
-    .page__container_small {
-        max-width: 1080px;
-    }
-}

@@ -2,8 +2,8 @@
   position: relative;
   min-width: 320px;
   min-height: 200px;
-  margin-left: -16px;
-  margin-right: -16px;
+  margin-left: 0;
+  margin-right: 0;
   background-image: url(../../../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,8 +37,6 @@
   .cover__overlay {
     min-width: 768px;
     min-height: 480px;
-    margin-left: -24px;
-    margin-right: -24px;
   }
 }
 
@@ -46,8 +44,6 @@
   .cover__overlay {
     min-width: 1024px;
     min-height: 640px;
-    margin-left: -48px;
-    margin-right: -48px;
   }
 }
 
@@ -55,7 +51,5 @@
   .cover__overlay {
     min-width: 1184px;
     min-height: 740px;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
