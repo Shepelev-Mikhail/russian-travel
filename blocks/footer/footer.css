@@ -1,10 +1,11 @@
 .footer {
-    max-width: 320px;
-    margin: 64px auto 0;
-    box-sizing: border-box;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 24px;
+  max-width: 320px;
+  margin: 64px auto 0;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  line-height: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -24,15 +25,15 @@
 
 @media screen and (min-width: 1024px) {
   .footer {
-      max-width: 1024px;
-      margin-top: 92px;
-      padding-left: 48px;
-      padding-right: 48px;
+    max-width: 1024px;
+    margin-top: 92px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-      max-width: 1280px; 
+    max-width: 1280px; 
   }
 }

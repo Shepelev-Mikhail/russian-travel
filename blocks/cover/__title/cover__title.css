@@ -3,6 +3,9 @@
   z-index: 1;
   max-width: 560px;
   padding: 0;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto 16px;
   font-style: normal;
   font-weight: 900;
@@ -16,6 +19,8 @@
     font-size: 72px;
     line-height: 76px;
     margin-bottom: 32px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

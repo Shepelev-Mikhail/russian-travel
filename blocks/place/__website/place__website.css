@@ -1,14 +1,14 @@
 .place__website {
-    max-width: 456px;
-    padding-left: 16px;
-    padding-right: 16px;
-    align-self: end;
-    grid-area: website;
+  max-width: 456px;
+  padding-left: 16px;
+  padding-right: 16px;
+  align-self: end;
+  grid-area: website;
 }
 
 @media screen and (min-width: 768px) {
-    .place__website {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .place__website {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

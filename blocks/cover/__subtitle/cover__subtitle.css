@@ -3,6 +3,9 @@
   z-index: 1;
   max-width: 360px;
   padding: 0;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
   font-style: normal;
   font-weight: 400;
@@ -16,6 +19,8 @@
   .cover__subtitle {
     font-size: 18px;
     line-height: 22px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

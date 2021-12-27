@@ -1,12 +1,12 @@
 .place__text {
-    grid-area: text;
-    padding-left: 16px;
-    padding-right: 16px;
+  grid-area: text;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media screen and (min-width: 768px) {
-    .place__text {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .place__text {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
