@@ -4,9 +4,17 @@
   margin: 0 auto;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
 
 
