@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 768px) {
   .place {
-    margin-bottom: 73px;
+    margin-bottom: 72px;
     grid-auto-flow: row;
     grid-template-columns: 340px 1fr; 
     grid-template-rows: repeat(2, max-content); 
