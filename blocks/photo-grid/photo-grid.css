@@ -11,6 +11,12 @@
   gap: 12px;
 }
 
+@media screen and (min-width: 425px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
 @media screen and (min-width: 768px) {
   .photo-grid {
     margin-top: 88px;
