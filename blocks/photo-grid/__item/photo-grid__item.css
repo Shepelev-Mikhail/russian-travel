@@ -2,10 +2,3 @@
   width: 100%;
   height: auto;
 }
-
-@media screen and (min-width: 1280px) {
-  .photo-grid__item {
-    width: 284px;
-    height: 213px;
-  }
-}

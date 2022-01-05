@@ -1,4 +1,7 @@
 .lead__caption {
+  box-sizing: border-box;
+  padding-right: 16px;
+  padding-left: 16px;
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -10,12 +13,14 @@
 
 @media screen and (min-width: 768px) {
   .lead__caption {
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__caption {
-    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
-
